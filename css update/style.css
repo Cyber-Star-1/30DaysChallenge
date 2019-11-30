@@ -1,0 +1,42 @@
+:root{
+  --base: #ffc600;
+  --bgc: #ff7700;
+  --spacing: 10px;
+  --blur: 10px;
+  --linear: linear;
+}
+
+.hl{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient( var(--base), var(--bgc));
+}
+
+body {
+  text-align: center;
+  background: #193549;
+  color: white;
+  font-family: cursive;
+  font-weight: 100;
+  font-size: 50px;
+}
+.controls {
+  margin-bottom: 20px;
+}
+img{
+  width: 40%;
+  padding: var(--spacing);
+  background-image: linear-gradient( var(--base), var(--bgc));
+  filter: blur(var(--blur));
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+input {
+  width: 100px;
+}
+.cont{
+  text-align: left;
+  width: 40%;
+}
